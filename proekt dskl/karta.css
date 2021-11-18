@@ -1,0 +1,87 @@
+body{
+	background-image: url("podfd.jpg") ;
+	background-repeat: no-repeat;
+	background-size:100%;
+
+}
+ul {
+
+position: fixed; 
+ z-index: 1; 
+overflow-y: hidden;
+margin: 0px;
+ padding: 0px;
+ list-style: none;
+ font-family: arial;
+}
+
+ul li {
+
+ float: left;
+ width: 200px;
+ height: 40px;
+ background-color: black;
+ opacity: .8;
+ line-height: 40px;
+ text-align: center;
+ font-size: 20px;
+ margin-right:8px;
+}
+
+ul li a {
+
+ text-decoration: none;
+ color: white;
+ display: block;
+ 
+ 
+}
+
+ul li a:hover {
+ background-color: #871b1b;
+ overflow: visible;
+
+}
+
+ul li ul li{
+ display: none;
+ 
+}
+
+ul li:hover ul li {
+ display: block;
+ 
+  overflow: hidden;
+float: none; 
+display: block; 
+z-index:1000;
+
+
+
+}
+.mapouter{
+	position:fixed;
+	text-align:right;
+	height:646px;
+	width:788px;
+	padding:150px;
+}
+.gmap_canvas {
+		overflow:hidden;
+		background:none!important;
+		height:646px;
+		width:788px;
+
+}
+.lp{
+	background-color:#871b1b;
+}
+.widnows{
+	height:200px;
+	width:800px;
+}
+.tyr{
+	 position: absolute;
+  top: 150px;
+  left: 1100px;
+}
