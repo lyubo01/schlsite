@@ -1,0 +1,57 @@
+body{
+	background-color:#1a1a1a;
+}
+.span1{
+color:white;
+}
+.span2{
+	color:grey;
+}
+h1{
+	font-family:Calibri;
+	margin-left:10%;
+	font-size:50px;
+}
+.div1{
+	background-color:black;
+	height:800px;
+	margin-right:10%;
+	margin-left:10%;
+
+}
+a{
+	padding-right:40px;
+	color:white;
+	text-decoration:none;
+	margin-left:40px;
+
+	
+}
+p{
+		margin-top:40px;
+		display:inline-block;
+
+}
+a:visited{
+	color:grey;
+}
+.mdiv{
+	background-image:url("pitch.jpg") ;
+	height:400px;
+	margin-right:4%;
+	margin-left:4%;
+	background-repeat:no-repeat;
+	background-size:cover;
+
+
+}.span3{
+	color:lightblue;
+	font-size:26px;
+	margin-left:14%;
+	margin-right:40%;
+}
+.span4{
+	color:grey;
+	margin-left:14%;
+	margin-right:40%;
+}
