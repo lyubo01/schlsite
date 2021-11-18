@@ -1,1 +1,1 @@
-# a site I've made for a school project
+# sites I've made for a school project
